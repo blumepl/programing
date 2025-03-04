@@ -2,22 +2,24 @@
 using namespace std;
 
 int main() {
-    int tablica[5];
-    int suma = 0;
-    double srednia;
+    int numbers[5];
+    int sum = 0;
+    int srednia;
+    int i = 0;
 
-    cout << "Podaj 5 liczb calkowitych: " << endl;
-    for (int i = 0; i < 5; i++) {
-        cout << "Liczba " << i + 1 << ": ";
-        cin >> tablica[i];
+    for (i = 0; i < 5; i++) {
+        cout << "Podaj liczbę " << i + 1 << ": ";
+        cin >> numbers[i];
     }
 
-    for (int i = 0; i < 5; i++) {
-        suma += tablica[i];
+    sum = 0;
+    for (i = 0; i < 5; i++) {
+        sum += numbers[i];
     }
 
+    srednia = sum / 5;
 
-    cout << "Srednia wartosc elementow w tablicy wynosi: " << srednia << endl;
+    cout << "Średnia z podanych liczb wynosi: " << srednia << endl;
 
     return 0;
 }

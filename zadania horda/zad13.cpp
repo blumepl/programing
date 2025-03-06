@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int tablica[5];
     int suma = 0;
-    double srednia;
+    int srednia;
 
     cout << "Podaj 5 liczb calkowitych: " << endl;
     for (int i = 0; i < 5; i++) {
@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
         suma += tablica[i];
     }
-
+	srednia = (i / 5);
 
     cout << "Srednia wartosc elementow w tablicy wynosi: " << srednia << endl;
 

@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-bool funkcja(int a) {if(a % 2 = 0) return true;
-else( a % 2 = 0) return false;
+bool funkcja(int a) {
+	if(a % 2 == 0) return true;
+	else( a % 2 == 1) return false;
 }
 int main(){
 	cin << a;
@@ -10,8 +11,7 @@ int main(){
 	
 	if(wynik == true) {
 		cout << "liczba parzysta";
-		else {
+	}	else {
 			cout << "liczba nieparzysta"
 			}
-					}
 }
